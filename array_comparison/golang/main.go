@@ -1,7 +1,6 @@
 package main
 
 func search(source, target []string) (store []string) {
-	// var store = []string{}
 	for _, v := range source {
 		store = searchDiff(v, target, store)
 	}
